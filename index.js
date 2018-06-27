@@ -141,6 +141,7 @@ class Autocomplete extends Component {
         renderSeparator={renderSeparator}
         onEndReached={onEndReached}
         onEndReachedThreshold={onEndReachedThreshold}
+        removeClippedSubviews={false}
         style={[styles.list, listStyle]}
       />
     );
